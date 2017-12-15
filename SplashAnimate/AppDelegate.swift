@@ -46,7 +46,7 @@ extension AppDelegate {
         
         let adVC = AdViewController()
         adVC.completion = {
-            let vc = ViewController()
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as! ViewController
             vc.adView = adVC.view
             self.window!.rootViewController = vc
         }
