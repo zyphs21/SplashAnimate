@@ -1,6 +1,8 @@
 # SplashAnimate
 A simple App splash animation
 
+![](https://github.com/zyphs21/SplashAnimate/blob/master/splashanimate.gif)
+
 ## 准备工作：
 首先我们需要确定作为宣传的图片的宽高比，这个一般是与 UI 确定的。一般启动屏展示会有上下两部分，上面是宣传图片，下面是 App 的 Logo。
 ## 实现基本思路：
